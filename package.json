@@ -1,0 +1,28 @@
+{
+  "name": "temp-elasticsearch-config",
+  "version": "1.0.0",
+  "description": "A temporary module that configures Elasticsearch for Binder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "configure": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewosh/temp-elasticsearch-config.git"
+  },
+  "author": "Andrew Osheroff <andrewosh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewosh/temp-elasticsearch-config/issues"
+  },
+  "homepage": "https://github.com/andrewosh/temp-elasticsearch-config#readme",
+  "dependencies": {
+    "async": "^2.3.0",
+    "binder-logging": "^1.0.3",
+    "jsonfile": "^2.4.0",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "url-join": "^2.0.1"
+  }
+}
