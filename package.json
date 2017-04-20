@@ -20,6 +20,7 @@
   "dependencies": {
     "async": "^2.3.0",
     "binder-logging": "^1.0.3",
+    "binder-utils": "^1.0.1",
     "jsonfile": "^2.4.0",
     "lodash": "^4.17.4",
     "request": "^2.81.0",
