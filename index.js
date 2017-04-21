@@ -65,6 +65,9 @@ async.series([
   logFirstMessage,
   configureElasticsearch
 ], function (err) {
-  console.error(err)
-  process.exit(1)
+  if (err) {
+    console.error(err)
+    process.exit(1)
+  }
+  process.exit(0)
 })
